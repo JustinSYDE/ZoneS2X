@@ -14,6 +14,11 @@ html, body{
   font-family: "Open Sans", sans-serif;
 }
 
+h1{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 .dropdown:hover .dropdown-menu {
     display: block;
  }
@@ -38,10 +43,6 @@ ul{
 	margin-bottom: 40px;
 }
 
-#btnCommercial{
-	margin-top: 10px;
-}
-
 li span{
 	padding: auto;
 }
@@ -51,7 +52,20 @@ p{
 }
 
 .dropdown-menu{
-	text-align: centers;
+	text-align: center;
+}
+
+#wrapper{
+  height: 100%;
+}
+
+#sideBar{
+  padding: 150px 30px 80px 30px;
+  background-color: #ffffee;
+}
+
+#collage{
+  height: auto;
 }
 
 /* MOBILE */
@@ -79,27 +93,10 @@ p{
     	padding-bottom: 12px;
   	}
 
-  	#btnCommercial{
-  		width: 100%;
-  		height: 180px;
-  		padding: 80px;
-  		text-align: center;
-  		background-image: url(http://placehold.it/292x180);
-  		color: black;
-  	}
+    #sideBar{
+      height: auto;
+    }
 
-  	#btnResidential{
-  		width: 100%;
-  		height: 180px;
-  		padding: 80px;
-  		text-align: center;
-  		background-image: url(http://placehold.it/292x180);
-  		color: black;
-  	}
-
-  	#sideBar{
-  		padding:0;
-  	}
 }
 
 
@@ -109,59 +106,14 @@ p{
   .dropdown:hover .dropdown-menu {
     display: block;
  }
-
-	#r1{
-		text-align: center; 
-	}
-
-	.btn-theme {
-		color: black;
-		background-color: transparent;
-		border-color: transparent;
-	}
-
-	#btnCommercial{
-		background-image: url(http://placehold.it/292x180);
-		background-repeat: no-repeat;
-		width: 45%;
-		height: 180px;
-		line-height: 180px;
-		margin: 40px auto 40px auto;
-		padding: 0px;
-	}
-
-	#btnResidential{
-		background-image: url(http://placehold.it/292x180);
-		background-repeat: no-repeat;
-		width: 45%;
-		line-height: 180px;
-		margin: 40px 20px 40px auto;
-		padding:0px;
-	}
 }
  
 /* WIDE */
-@media (min-width: 992px){
-	#btnCommercial{
-		background-image: url(http://placehold.it/292x180);
-		background-repeat: no-repeat;
-		width: 100%;
-		height: 180px;
-		line-height: 180px;
-		margin: 10px 0 0 0;
-	}
-
-	#btnResidential{
-		background-image: url(http://placehold.it/292x180);
-		background-repeat: no-repeat;
-		width: 100%;
-		line-height: 180px;
-		margin: 0;
-	}
-
-	footer{
-
-	}
+@media (min-width: 770px){
+  #sideBar{
+    position: fixed;
+    height: 100%;
+  }
 }
 
 /*Bootstrap column stack breakpoint override 
