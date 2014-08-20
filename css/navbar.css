@@ -1,0 +1,120 @@
+/* ======================= NAVBAR STYLES ===================================== */
+
+.navbar-brand{
+    color: #699d4c;
+}
+
+ .navbar .nav > .active a, .navbar .nav > .navbar .nav > li a:hover {
+    color: #ffffff;
+    background-color: #699d4c;
+ }
+
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #699d4c;
+}
+
+.dropdown-menu{
+    text-align: center;
+}
+
+a {
+    color: #acb7c0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+    color: #699d4c; /*flat green*/
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 10px;
+    background-color: #ffffff;
+}
+
+ul{
+    text-align: justify;
+    list-style: none;
+}
+
+
+li span{
+    padding: auto;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p{
+    font-size: medium;
+}
+
+body {
+  font-family: "Droid Serif", serif;
+  color: #7f8c97;
+}
+
+@media only screen and (max-width: 480px){
+    .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+      }
+
+    .navbar ul {
+        float: none;
+    }
+
+    .navbar ul:not {
+        display: block;
+    }
+
+    .navbar li {
+        float: none;
+        display: block;
+    }
+
+    .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media only screen and (min-width: 770px){
+      .dropdown:hover .dropdown-menu {
+        display: block;
+     }
+}

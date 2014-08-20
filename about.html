@@ -10,9 +10,10 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css"> 
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/about.css">
+        <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="vertical-timeline/css/reset.css"> <!-- CSS reset -->
         <link rel="stylesheet" href="vertical-timeline/css/style.css"> <!-- Resource style -->
         <script src="js/modernizr.js"></script> <!-- Modernizr -->
@@ -20,6 +21,16 @@
         <script src="http://code.jquery.com/jquery-latest.js"></script> 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+        <script>
+        $(document).ready(function(){
+            $(window).load(function() {
+                if ( $(window).width() <= 691) {
+                       $ disable hover;
+                }
+            }
+        });  
+        </script>
     </head>
 
     <body>
@@ -43,7 +54,7 @@
               <a class="navbar-brand" href="index.html">ZONE S2X D LTD</a>
             </div>
             <div class="navbar-collapse collapse">
-              <ul class="nav nav-pills navbar-right">
+              <ul class="nav nav-pills navbar-right green">
                     <li><a href="index.html">FRONT</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle disabled" data-toggle="dropdown" href="softscape.html">

@@ -13,12 +13,22 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/softscape.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="slippry-1.2.1/dist/slippry.css">
 <!-- -->
         <script src="http://code.jquery.com/jquery-latest.js"></script> 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
         <script src="slippry-1.2.1/dist/slippry.min.js"></script>
-        <link rel="stylesheet" href="slippry-1.2.1/dist/slippry.css">
+        <script>
+        $(document).ready(function(){
+            $(window).load(function() {
+                if ( $(window).width() <= 691) {
+                       $ disable hover;
+                }
+            }
+        });  
+        </script>
     </head>
 
     <body>
@@ -50,9 +60,9 @@
                           <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="residential.html">Residential</a></li>
+                            <li><a href="residential.html" style="background-color: white; color: black">Residential</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li><a href="commercia.html">Commercial</a></li>
+                            <li><a href="commercia.html" style="background-color: white; color: black">Commercial</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
