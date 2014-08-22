@@ -418,7 +418,8 @@
   border-radius: 50%;
 }
 .sy-pager li.sy-active a {
-  background-color: #e24b70;
+  background-color: #699d4c; 
+  /*background-color: #e24b70*/;
 }
 .sy-pager li a {
   width: 100%;

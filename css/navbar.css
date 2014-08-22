@@ -1,22 +1,36 @@
 /* ======================= NAVBAR STYLES ===================================== */
 
-.navbar-brand{
-    color: #699d4c;
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
- .navbar .nav > .active a, .navbar .nav > .navbar .nav > li a:hover {
-    color: #ffffff;
-    background-color: #699d4c;
- }
-
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #699d4c;
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.dropdown-menu{
-    text-align: center;
+body {
+  font-family: "Droid Serif", serif;
+  color: #7f8c97;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p{
+    font-size: medium;
+}
+
+ul{
+    text-align: justify;
+    list-style: none;
+}
+
+li span{
+    padding: auto;
 }
 
 a {
@@ -47,6 +61,25 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+.dropdown-menu{
+    text-align: center;
+}
+
+.navbar-brand{
+    color: #699d4c;
+}
+
+ .navbar .nav > .active a, .navbar .nav > .navbar .nav > li a:hover {
+    color: #ffffff;
+    background-color: #699d4c;
+ }
+
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #699d4c;
+}
+
 .navbar {
     font-weight: 800;
     font-size: 14px;
@@ -54,39 +87,7 @@ a:after {
     background-color: #ffffff;
 }
 
-ul{
-    text-align: justify;
-    list-style: none;
-}
 
-
-li span{
-    padding: auto;
-}
-
-h1, h2 {
-  font-family: "Open Sans", sans-serif;
-}
-
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-p{
-    font-size: medium;
-}
-
-body {
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-}
 
 @media only screen and (max-width: 480px){
     .navbar .navbar-collapse {
