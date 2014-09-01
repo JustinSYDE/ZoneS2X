@@ -2,28 +2,40 @@
    Author's custom styles
    ========================================================================== */
 
-html, body{
-	height: 100%;
-	width: 100%; 
-	padding:0;
-	margin:0;
-  font-family: "Open Sans", sans-serif;
-}
-
-.row{
-	margin:0;
-}
-
+/* GLOBAL */
 #r1{
 	margin-bottom: 40px;
 }
 
+.btn-theme:focus, .btn-theme:hover{
+}
+
+.btn-theme a{
+	color: white;
+}
+
 #btnCommercial{
+	color: white;
 	margin-top: 10px;
+	text-align: center;
+	background-image: url(../img/button_hardscape_commercial.jpg);
+	font-weight: bold;
+}
+
+#btnResidential{
+	color: white;
+	background-image: url(../img/button_hardscape_residential.jpg);
+	text-align: center;
+	font-weight: bold;
 }
 
 p{
 	text-align: justify;
+}
+
+#demo1 li img{
+	max-width: 2000px;
+	max-height: 800px;
 }
 
 /* MOBILE */
@@ -33,7 +45,6 @@ p{
   		height: 180px;
   		padding: 80px;
   		text-align: center;
-  		background-image: url(http://placehold.it/292x180);
   		color: black;
   	}
 
@@ -42,7 +53,6 @@ p{
   		height: 180px;
   		padding: 80px;
   		text-align: center;
-  		background-image: url(http://placehold.it/292x180);
   		color: black;
   	}
 
@@ -66,7 +76,6 @@ p{
 	}
 
 	#btnCommercial{
-		background-image: url(http://placehold.it/292x180);
 		background-repeat: no-repeat;
 		width: 45%;
 		height: 180px;
@@ -76,7 +85,6 @@ p{
 	}
 
 	#btnResidential{
-		background-image: url(http://placehold.it/292x180);
 		background-repeat: no-repeat;
 		width: 45%;
 		line-height: 180px;
@@ -88,7 +96,6 @@ p{
 /* WIDE */
 @media (min-width: 992px){
 	#btnCommercial{
-		background-image: url(http://placehold.it/292x180);
 		background-repeat: no-repeat;
 		width: 100%;
 		height: 180px;
@@ -97,7 +104,6 @@ p{
 	}
 
 	#btnResidential{
-		background-image: url(http://placehold.it/292x180);
 		background-repeat: no-repeat;
 		width: 100%;
 		line-height: 180px;

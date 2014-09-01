@@ -1,4 +1,4 @@
-/* ======================= NAVBAR STYLES ===================================== */
+/* ======================= GLOBAL ===================================== */
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -9,6 +9,14 @@ html * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%; 
+  padding:0;
+  margin:0;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -33,6 +41,12 @@ li span{
     padding: auto;
 }
 
+.row{
+  margin:0;
+}
+
+/* ======================= NAVBAR (& GLOBAL) ===================================== */
+
 a {
     color: #acb7c0;
     text-decoration: none;
@@ -47,7 +61,7 @@ a {
 }
 
 a:hover, a:focus {
-    color: #699d4c; /*flat green*/
+    color: #547e3d; /*flat green*/
     text-decoration: none;
     outline: 0;
 }
@@ -65,19 +79,29 @@ a:after {
     text-align: center;
 }
 
-.navbar-brand{
-    color: #699d4c;
+.dropdown ul li a{
+  color: #acb7c0;
+  background-color: white;
+  font-weight: bold;
 }
 
- .navbar .nav > .active a, .navbar .nav > .navbar .nav > li a:hover {
-    color: #ffffff;
-    background-color: #699d4c;
- }
+.dropdown ul li a:hover{
+  color:#547e3d;
+}
+
+.navbar-brand{
+    color: #547e3d;
+}
+
+.navbar .nav > .active a, .navbar .nav > .navbar .nav > li a:hover {
+  color: #ffffff;
+  background-color: #547e3d;
+}
 
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #699d4c;
+  background-color: #547e3d;
 }
 
 .navbar {
@@ -87,9 +111,17 @@ a:after {
     background-color: #ffffff;
 }
 
+footer{
+  padding-bottom: 15px;
+  text-align: center;
+}
 
+/* ======================= MOBILE ONLY ===================================== */
 
 @media only screen and (max-width: 480px){
+  
+  /* NAVBAR */
+
     .navbar .navbar-collapse {
         padding: 0;
         max-height: none;
@@ -114,7 +146,9 @@ a:after {
     }
 }
 
-@media only screen and (min-width: 770px){
+/* ======================= WIDESCREEN ===================================== */
+
+@media (min-width: 770px){
       .dropdown:hover .dropdown-menu {
         display: block;
      }

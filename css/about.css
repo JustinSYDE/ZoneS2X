@@ -1,60 +1,22 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-   
-html, body{
-	height: 100%;
-	width: 100%; 
-  padding: 0;	
-	margin:0;
-}
+/* ======================= GLOBAL ===================================== */
 
 h1, h3{
   text-align: center;
 }
 
+p{
+  text-align: justify;
+}
+
 .row{
-	margin:0;
   padding: 0 10% 0 10%;
 }
 
-p{
-	text-align: justify;
-}
-
-#r3b p{
-  margin-top: 10px;
-}
-
-#r3b h3{
-  margin-top: 20px;
-}
-
-#r2, #r3, #r4, #r5, #r6{
-  padding-top: 80px;
-  padding-bottom:80px;
-}
-
-#r2 h1, #r3 h1, #r4 h1, #r5 h1, #r6 h1{
-  font-size: 400%;
-}
-
-#r2 h3, #r3 h3, #r4 h3, #r5 h3, #r6 h3{
-  margin-top: 30px;
-}
-
-#r3 h3{
-  font-size: x-large;
-}
- 
 #r1{
   width: 100%;
   height: 100%;
-  background-image: url(http://placehold.it/1920x1080);
-}
-
-#r2{
-  background-color: white;
+  background-image: url(../img/front_specialties_stonework_2.png);
+  color: white;
 }
 
 #r3{
@@ -76,9 +38,40 @@ p{
   padding-right:0;
 }
 
+#r2, #r3, #r4, #r5, #r6{
+  padding-top: 80px;
+  padding-bottom:80px;
+}
+
+#r3c p{
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+#r3c h3{
+  margin-top: 20px;
+}
+
+#r1 h1, #r2 h1, #r3 h1, #r4 h1, #r5 h1, #r6 h1{
+  font-size: 400%;
+}
+
+#r1 h3, #r2 h3, #r3 h3, #r4 h3, #r5 h3, #r6 h3{
+  margin-top: 30px;
+}
+
+#r3 h3{
+  font-size: x-large;
+}
+ 
+#r6{
+  padding-bottom: 0px;
+}
+
 #r6 p{
   text-align: center;
 }
+
 #r6 span{
   padding-right: 10px;
   padding-top: 10px;
@@ -88,41 +81,31 @@ p{
   width: 100%;
 }
 
-/* MOBILE */
+/* ======================= MOBILE ONLY ===================================== */
+
 @media only screen and (max-width: 480px){
     #r1{
       height: auto;
-      padding-bottom: 80px;
     }
 
     #r3b .col-md-4{
       padding-top: 40px;
     }
+
+    .row{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
 }
 
 
-/* INTERMEDIATE */
+/* ======================= TABLET+ ===================================== */
+
 @media only screen and (min-width: 480px) {
 	.btn-theme {
 		color: black;
 		background-color: transparent;
 		border-color: transparent;
 	}
-
-  #r1{
-    padding: 20% 20% 0 20%;
-  }
 }
  
-/* WIDE */
-@media (min-width: 768px){
-  #r1{
-    padding: 20% 20% 0 20%;
-  }
-}
-
-@media (min-width: 900px){
-  #r1{
-    padding: 0 30% 0 30%;
-  }
-}

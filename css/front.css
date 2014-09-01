@@ -1,0 +1,127 @@
+/* ======================= MOBILE & TABLET ===================================== */
+	
+	#r0a{
+		height: 120px;
+	}
+
+	#r1a{
+		height: auto;
+	}
+
+	#r2a{
+		padding-top: 40px;
+		height: auto;
+	}
+
+	#r3a{
+		padding-top: 40px;
+		height: auto;
+		text-align: center;
+	    padding-left: 0;
+	    padding-right: 0;
+	}	
+
+	#r4a{
+		height: auto;
+    	padding: 40px 0% 80px 0%;
+		text-align: justify;
+	}
+
+	.btn-theme{
+		background-color: transparent;
+		color: white;
+		width: 100%;
+		height: auto;
+		border-radius: 0;
+		border-color: white;
+		border-style: dashed;
+		padding: 1em 0 1em 0px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.btn-theme:hover, .btn-theme:focus{
+		color: #172727;
+		border-color: #172727;
+	}
+
+	#ericDivider{
+		border-width: 0px;
+		border-right-style: none;
+		text-align: justify;
+	}
+
+	#wordsDivider{
+		text-align: center;
+		padding-top: 20px;
+	}
+
+
+
+/* ======================= WIDESCREEN+ ===================================== */
+
+@media (min-width: 768px) {
+
+  /*.dropdown:hover .dropdown-menu {
+    display: block;
+ }*/
+
+	#r0a{
+		height: 30%;
+	}
+
+	#r1a{
+		height: 15%;
+	}
+
+	#r2a{
+		height: 15%;
+	    padding-left: 20%;
+	    padding-right: 20%;
+	}
+
+	#r3a{
+		height: 15%;
+	}	
+
+	#r3a ul{
+ 		list-style-type: none;
+ 		text-align: center;
+ 	}
+
+ 	#r3a ul li{
+ 		display: inline;
+ 		padding-left: 5%;
+ 		padding-right: 5%;
+ 	}
+
+	#r4a{
+		height: 25%;
+	    padding-left: 20%;
+	    padding-right: 20%;
+	}
+
+	.btn-theme{
+		background-color: transparent;
+		color: white;
+		width: auto;
+		height: auto;
+		text-align: center;
+		padding: 1em 2em 1em 2em;
+		border-radius: 0;
+		border-color: white;
+	}
+
+	#ericDivider{
+		border-right-style: solid; 
+		border-width: 1px;
+		text-align: justify;
+	}
+
+	#wordsDivider{
+		text-align: left;
+    	padding: 0 0 0 10px;
+	}
+
+}
+
