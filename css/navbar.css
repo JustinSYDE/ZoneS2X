@@ -113,6 +113,10 @@ a:after {
     background-color: #ffffff;
 }
 
+.navbar span{
+  color: #e9e0b7;
+}
+
 footer{
   padding-bottom: 15px;
   text-align: center;
