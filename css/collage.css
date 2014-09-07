@@ -13,7 +13,7 @@ img{
   padding-right: auto;
 }
 
-h1{
+h2{
   text-align: center;
   padding-bottom: 40px;
 }
@@ -37,7 +37,7 @@ p{
 
 /* ======================= MOBILE ONLY ===================================== */
 
-@media (max-width: 480px){
+@media (max-width: 768px){
 	
     #sideBar{
       height: auto;

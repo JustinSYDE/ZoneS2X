@@ -1,5 +1,9 @@
 /* ======================= MOBILE & TABLET ===================================== */
 	
+	.row{
+		padding: 0 10% 0 10%;
+	}
+
 	#r0a{
 		height: 120px;
 	}
@@ -16,14 +20,11 @@
 	#r3a{
 		padding-top: 40px;
 		height: auto;
-		text-align: center;
-	    padding-left: 0;
-	    padding-right: 0;
 	}	
 
 	#r4a{
 		height: auto;
-    	padding: 40px 0% 80px 0%;
+    	padding: 40px 10%% 80px 10%;
 		text-align: justify;
 	}
 
@@ -41,22 +42,40 @@
 	}
 
 	.btn-theme:hover, .btn-theme:focus{
-		color: #172727;
-		border-color: #172727;
+		color: #e9e0b7;
+		border-color: #e9e0b7;
 	}
 
 	#ericDivider{
 		border-width: 0px;
 		border-right-style: none;
-		text-align: justify;
 	}
 
-	#wordsDivider{
+	#ericDivider p{
 		text-align: center;
+		color: #a5aeb6;
+	}
+
+	em{
+		font-style: italic; 
+		color: #a5aeb6;
+	}
+
+	#lightSlider{
 		padding-top: 20px;
 	}
 
+	#lightSlider li p{
+		text-align: center;
+	}
 
+	#r1a span, #lightSlider li p span{
+		color: #e9e0b7;
+	}
+
+	.cd-timeline-img{
+		background-color: #547e3d;
+	}
 
 /* ======================= WIDESCREEN+ ===================================== */
 
@@ -65,6 +84,9 @@
   /*.dropdown:hover .dropdown-menu {
     display: block;
  }*/
+    .row{
+		padding: 0 10% 0 10%;
+	}
 
 	#r0a{
 		height: 25%;
@@ -72,6 +94,7 @@
 
 	#r1a{
 		height: 15%;
+		padding: 0;
 	}
 
 	#r2a{
@@ -115,13 +138,10 @@
 	#ericDivider{
 		border-right-style: solid; 
 		border-width: 1px;
-		text-align: justify;
 	}
 
-	#wordsDivider{
-		text-align: left;
-    	padding: 0 0 0 10px;
+	#lightSlider{
+		padding-top: 0;
 	}
-
 }
 

@@ -7,9 +7,6 @@
 	margin-bottom: 40px;
 }
 
-.btn-theme:focus, .btn-theme:hover{
-}
-
 .btn-theme a{
 	color: white;
 }
@@ -27,6 +24,11 @@
 	background-image: url(../img/button_hardscape_residential.jpg);
 	text-align: center;
 	font-weight: bold;
+}
+
+#btnCommercial:hover, #btnResidential:hover{
+	color: #547e3d;
+	opacity: 0.90;
 }
 
 p{
@@ -61,14 +63,17 @@ p{
   	}
 }
 
-
 /* INTERMEDIATE */
-@media only screen and (min-width: 480px) {
+@media (min-width: 480px) {
 
 	#r1{
 		text-align: center; 
 	}
 
+	#sideBar li{
+		display: inline;
+	}
+	
 	.btn-theme {
 		color: black;
 		background-color: transparent;

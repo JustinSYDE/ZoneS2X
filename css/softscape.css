@@ -15,6 +15,7 @@ p{
 #btnCommercial{
 	margin-top: 10px;
 	text-align: center;
+	color: white;
 	background-image: url(../img/button_softscape_commercial.jpg);
 	font-weight: bold;
 }
@@ -23,6 +24,12 @@ p{
 	text-align: center;
 	background-image: url(../img/button_softscape_residential.jpg);
 	font-weight: bold;
+	color: white;
+}
+
+#btnCommercial:hover, #btnResidential:hover{
+	color: #547e3d;
+	opacity: 0.90;
 }
 
 /* ======================= MOBILE ONLY ===================================== */
@@ -61,6 +68,10 @@ p{
 		border-color: transparent;
 	}
 
+	#sideBar li{
+		display: inline;
+	}
+	
 	#btnCommercial{
 		width: 45%;
 		height: 180px;

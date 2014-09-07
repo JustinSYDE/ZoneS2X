@@ -14,9 +14,9 @@ p{
 
 #r1{
   width: 100%;
-  height: 100%;
-  background-image: url(../img/front_specialties_stonework_2.png);
+  background-image: url(../img/frontBackground.jpg);
   color: white;
+  padding: 0;
 }
 
 #r3{
@@ -53,7 +53,7 @@ p{
 }
 
 #r1 h1, #r2 h1, #r3 h1, #r4 h1, #r5 h1, #r6 h1{
-  font-size: 400%;
+  font-size: 350%;
 }
 
 #r1 h3, #r2 h3, #r3 h3, #r4 h3, #r5 h3, #r6 h3{
@@ -101,7 +101,7 @@ p{
 
 /* ======================= TABLET+ ===================================== */
 
-@media only screen and (min-width: 480px) {
+@media (min-width: 480px) {
 	.btn-theme {
 		color: black;
 		background-color: transparent;
@@ -109,3 +109,8 @@ p{
 	}
 }
  
+ @media (min-width: 768px){
+  #r1{
+    height: 100%;
+  }
+ }    

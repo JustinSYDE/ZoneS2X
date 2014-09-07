@@ -1,4 +1,5 @@
 /* ======================= GLOBAL ===================================== */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 html * {
   -webkit-font-smoothing: antialiased;
@@ -16,16 +17,17 @@ html, body{
   width: 100%; 
   padding:0;
   margin:0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Ubuntu', serif;
+  /*font-family: "Open Sans", sans-serif;*/
 }
 
 body {
-  font-family: "Droid Serif", serif;
+  /*font-family: "Droid Serif", serif;*/
   color: #7f8c97;
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
 }
 
 p{
@@ -50,7 +52,7 @@ li span{
 a {
     color: #acb7c0;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
