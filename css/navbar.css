@@ -26,10 +26,6 @@ body {
   color: #7f8c97;
 }
 
-h1, h2 {
-  /*font-family: "Open Sans", sans-serif;*/
-}
-
 p{
     font-size: medium;
 }
@@ -45,6 +41,18 @@ li span{
 
 .row{
   margin:0;
+}
+
+footer{
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
+
+footer p{
+  text-align: center;
+  font-style: italic;
+  padding: 0 0 5px 0;
+  margin: 0;
 }
 
 /* ======================= NAVBAR (& GLOBAL) ===================================== */
@@ -117,11 +125,6 @@ a:after {
   color: #e9e0b7;
 }
 
-footer{
-  padding-bottom: 15px;
-  text-align: center;
-}
-
 /* ======================= MOBILE ONLY ===================================== */
 
 @media only screen and (max-width: 480px){
@@ -158,4 +161,8 @@ footer{
       .dropdown:hover .dropdown-menu {
         display: block;
      }
+
+     /*#copyright{
+      padding-top: 10px;
+     }*/
 }

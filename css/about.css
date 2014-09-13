@@ -14,7 +14,7 @@ p{
 
 #r1{
   width: 100%;
-  background-image: url(../img/frontBackground.jpg);
+  background-image: url(../img/frontBackground2.png);
   color: white;
   padding: 0;
 }
@@ -29,13 +29,13 @@ p{
 
 #r5{
   text-align: center;
-  background-color: #f6f9fb;
 }
 
 #r6{
   margin: 0;
   padding-left:0;
   padding-right:0;
+  background-color: #f6f9fb;
 }
 
 #r2, #r3, #r4, #r5, #r6{
@@ -81,9 +81,18 @@ p{
   width: 100%;
 }
 
+#r5 .row .row{
+  padding-top: 30px;
+}
+
+#r2b img{
+  margin-bottom: 30px;
+  border: 5px solid white;
+}
+
 /* ======================= MOBILE ONLY ===================================== */
 
-@media only screen and (max-width: 480px){
+@media (max-width: 480px){
     #r1{
       height: auto;
     }

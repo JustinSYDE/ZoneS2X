@@ -24,8 +24,12 @@
 
 	#r4a{
 		height: auto;
-    	padding: 40px 10%% 80px 10%;
-		text-align: justify;
+    	padding: 40px 10% 80px 10%;
+	}
+
+	#r4a p{
+		text-align: center;
+		padding-top: 8px;
 	}
 
 	.btn-theme{
@@ -65,18 +69,22 @@
 		padding-top: 20px;
 	}
 
-	#lightSlider li p{
+	.quote{
 		text-align: center;
 	}
 
-	#r1a span, #lightSlider li p span{
+	.reference{
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	#r1a span, #lightSlider li p span, #r4a em{
 		color: #e9e0b7;
 	}
 
 	.cd-timeline-img{
 		background-color: #547e3d;
 	}
-
 /* ======================= WIDESCREEN+ ===================================== */
 
 @media (min-width: 768px) {
@@ -89,7 +97,7 @@
 	}
 
 	#r0a{
-		height: 25%;
+		height: 30%;
 	}
 
 	#r1a{
@@ -99,8 +107,8 @@
 
 	#r2a{
 		height: 15%;
-	    padding-left: 20%;
-	    padding-right: 20%;
+	    padding-left: 28%;
+	    padding-right: 28%;
 	}
 
 	#r3a{
@@ -119,7 +127,7 @@
  	}
 
 	#r4a{
-		height: 30%;
+		height: 25%;
 	    padding-left: 20%;
 	    padding-right: 20%;
 	}
@@ -141,7 +149,7 @@
 	}
 
 	#lightSlider{
-		padding-top: 0;
+		padding-top: 0;	
 	}
 }
 
