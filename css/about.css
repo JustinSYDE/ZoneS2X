@@ -90,6 +90,11 @@ p{
   border: 5px solid white;
 }
 
+#brands p{
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
 /* ======================= MOBILE ONLY ===================================== */
 
 @media (max-width: 480px){
