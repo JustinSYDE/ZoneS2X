@@ -15,6 +15,7 @@ p{
 #r1{
   width: 100%;
   background-image: url(../img/frontBackground2.png);
+  background-repeat: no-repeat;
   color: white;
   padding: 0;
 }
