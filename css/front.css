@@ -11,8 +11,8 @@
 
 	#frontR1{
 	  width: 100%;
-	  background-image: url(img/frontBackground2.png);
-	  background-repeat: no-repeat;
+	  background-image: url(img/frontBackground.png);
+	  background-repeat: repeat-y;
 	  color: white;
 	  padding: 0;
 	}
@@ -71,6 +71,7 @@
 	#frontR3a .btn-theme:hover, #frontR3a .btn-theme:focus{
 		color: #e9e0b7;
 		border-color: #e9e0b7;
+		border-style: solid;
 	}
 
 	#ericDivider{
@@ -114,7 +115,6 @@
 		text-align: left;
 	}
 
-	
 /* ------------------------------------------------ MEDIA QUERIES ------------------------------------------------*/
 
 @media (max-width: 480px){
@@ -126,7 +126,7 @@
 @media (min-width: 768px) {
 
 	#frontR1{
-	    height: 93.3%;
+	    height: 100%;
 	  }
   
  	#frontR1a h1, #frontR1a h3{
@@ -148,8 +148,7 @@
 	}
 
 	#frontR0a{
-		height: 25%;
-		margin-top: 3.6%;
+		height: 30%;
 	}
 
 	#frontR1a{
@@ -181,7 +180,7 @@
  	}
 
 	#frontR4a{
-		height: 30%;
+		height: 25%;
 	    padding-left: 20%;
 	    padding-right: 20%;
 	}
@@ -257,6 +256,36 @@
 
 	.quote, .reference{
 		text-align: center;
+	}
+}
+
+@media (min-width: 1600px){
+	.textSlide{
+		width: 800px;
+	}
+}
+
+@media (min-width: 1700px){
+	.textSlide{
+		width: 860px;
+	}
+}
+
+@media (min-width: 1800px){
+	.textSlide{
+		width: 890px;
+	}
+}
+
+@media (min-width: 1900px){
+	.textSlide{
+		width: 920px;
+	}
+}
+
+@media (min-width: 2000px){
+	.textSlide{
+		width: 950px;
 	}
 }
 

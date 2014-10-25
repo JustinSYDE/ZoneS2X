@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#/">ZONE SIX <span>DESIGN BUILD</span></a>
+              <a class="navbar-brand" href="#/" ng-click="tabService.setTab(0)">ZONE SIX <span>DESIGN BUILD</span></a>
             </div>
             <div class="navbar-collapse collapse">
               <ul class="nav nav-pills navbar-right green">
@@ -53,6 +53,6 @@
 
                     <li ng-class="{active: tabService.isSet(1)}"><a href="#/about" ng-click="tabService.setTab(1)">ABOUT</a></li>
                   </ul>
-            </div><!--/.navbar-collapse -->
+            </div>
         </div>
     </div>

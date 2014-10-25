@@ -11,6 +11,7 @@ FRONT:
 -------
 
 1. Button shrink size and border on hover
+2. Fix tabService zoneSix title
 
 
 
