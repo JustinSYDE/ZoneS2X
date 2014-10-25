@@ -3,6 +3,12 @@
    ========================================================================== */
 
 /* GLOBAL */
+
+#hardscapeWrapper{
+	height: auto;
+	background: url(img/backgrounds/dust.png);
+}
+
 p{
 	line-height: 150%;
 }

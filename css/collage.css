@@ -5,6 +5,9 @@
   float: left;
   padding: 0;
   margin: 2px;
+  -webkit-box-shadow: 10px 10px 10px -10px black;
+  -moz-box-shadow: 10px 10px 10px -10px black;
+  box-shadow: 10px 10px 10px -10px black;
 }
 
 h2{
@@ -14,13 +17,14 @@ h2{
 }
 
 p{
-	text-align: justify;
+	text-align: left;
 }
 
 #wrapper{
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
+  background: url(img/backgrounds/ricepaper.png);
 }
 
 #sideBar{
@@ -36,12 +40,12 @@ p{
   margin-bottom: 40px;
 }
 
-* {
-  margin: 0;
+#sideBar, #sideBar a{
+  color: #657078;
 }
 
-.footer, .push {
-  height: 4em;
+#sideBar a:hover{
+  color: #547e3d;
 }
 
 /* --------------------------------------------- MEDIA QUERIES --------------------------------------------- */

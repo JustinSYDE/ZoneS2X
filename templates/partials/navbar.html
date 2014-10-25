@@ -38,7 +38,7 @@
                     </li>
 
                     <li class="dropdown" ng-class="{active: tabService.isSet(4)}">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/specialties" ng-click="tabService.setTab(4)">
                           SPECIALITIES
                           <span class="caret"></span>
                         </a>
@@ -46,8 +46,6 @@
                             <li><a href="#/specialties-woodwork" ng-click="tabService.setTab(4)">WOODWORK</a></li>
                             <li role="presentation" class="divider"></li>
                             <li><a href="#/specialties-stonework" ng-click="tabService.setTab(4)">STONEWORK</a></li>
-                            <li role="presentation" class="divider"></li>
-                            <li><a href="#/specialties-other" ng-click="tabService.setTab(4)">OTHER</a></li>
                         </ul>
                       </li>
 

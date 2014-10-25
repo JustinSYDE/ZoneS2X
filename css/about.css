@@ -13,11 +13,13 @@ h1, h3{
 }
 
 #aboutR2{
-  background-color: #f6f9fb;
+  /*background-color: #f6f9fb;*/
+  background: url(img/backgrounds/subtle_dots.png);
 }
 
 #aboutR3{
   
+  background: url(img/backgrounds/white_wall_hash.png);
 }
 
 #aboutR4{
@@ -27,14 +29,9 @@ h1, h3{
 
 #aboutR5{
   text-align: center;
-  background-color: #f6f9fb;
-}
-
-#aboutR6{
-  margin: 0;
-  padding-left:0;
-  padding-right:0;
+  /*background-color: #f6f9fb;*/
   
+  background: url(img/backgrounds/cork_1.png);
 }
 
 #aboutR2, #aboutR3, #aboutR4, #aboutR5, #aboutR6{
@@ -65,6 +62,14 @@ h1, h3{
  
 #aboutR6{
   padding-bottom: 0px;
+  margin: 0;
+  padding-left:0;
+  padding-right:0;
+  background: url(img/backgrounds/old_moon.png);
+}
+
+#contactUs{
+  padding-bottom: 50px;
 }
 
 #aboutR6 p{
@@ -74,6 +79,14 @@ h1, h3{
 #aboutR6 span{
   padding-right: 10px;
   padding-top: 10px;
+}
+
+#aboutR6 em{
+  color: #7f8c97;
+}
+
+#aboutR6 em:hover{
+  color: #657078;
 }
 
 #map_canvas {

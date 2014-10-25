@@ -5,6 +5,19 @@
 		margin-right: 0;
 	}
 
+	.clicked{
+		border: 1px solid #e9e0b7;
+		border-radius: 0;
+		padding: 1em 1.5em 1em 1.5em;
+		color: #e9e0b7;
+		font-size: 15px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		webkit-box-shadow: inset 10px 10px 70px 0px black;
+		-moz-box-shadow: inset 10px 10px 70px 0px black;
+		box-shadow: inset 10px 10px 70px 0px black;
+	}
+
 	.frontRow{
 		padding: 0 10% 0 10%;
 	}
@@ -72,6 +85,9 @@
 		color: #e9e0b7;
 		border-color: #e9e0b7;
 		border-style: solid;
+		webkit-box-shadow: inset 10px 10px 60px 0px black;
+		-moz-box-shadow: inset 10px 10px 60px 0px black;
+		box-shadow: inset 10px 10px 60px 0px black;
 	}
 
 	#ericDivider{
@@ -113,6 +129,10 @@
 
 	#frontR1a h1, #frontR1a h3{
 		text-align: left;
+	}
+
+	#frontR4a em:hover{
+		color: #bab392;
 	}
 
 /* ------------------------------------------------ MEDIA QUERIES ------------------------------------------------*/

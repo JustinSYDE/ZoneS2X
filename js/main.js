@@ -11,7 +11,7 @@
 	require.config({
 		baseUrl: 'js',
 		paths: {
-			'angular': 'libs/angular-1.2.24',
+			'angular': 'libs/angular-1.3.0',
 			'angularRoute': 'libs/angular-route-1.2.24',
 			'bootstrap': 'libs/modernizr-2.6.2-respond-1.1.0.min',
 			'jquery': 'libs/jquery',
@@ -136,7 +136,7 @@
 						.when('/specialties-woodwork', {templateUrl: 'templates/specialtiesPages/specialties-woodwork.html', controller: "CollageCtrl"}).
 						otherwise({redirectTo: '/'})
 
-						.when('/specialties-other', {templateUrl: 'templates/specialtiesPages/specialties-other.html', controller: "CollageCtrl"}).
+						.when('/specialties', {templateUrl: 'templates/specialtiesPages/specialties.html', controller: "CollageCtrl"}).
 						otherwise({redirectTo: '/'});
 				}]);
 

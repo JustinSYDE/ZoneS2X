@@ -17,7 +17,8 @@ define(["controllersFactory",
 				tabService,
 				lightSliderService) {
 
-				$scope.tabService = tabService;
+				$scope.tabService = tabService.init($scope);
+				$scope.clicked = tabService.clicked;
 				$scope.lightSliderService = lightSliderService;
 
 				$scope.lightSliderService.start();
