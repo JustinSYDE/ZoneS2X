@@ -3,36 +3,47 @@
    ========================================================================== */
 
 /* GLOBAL */
-#r1{
+p{
+	line-height: 150%;
+}
+
+#hardscapeR1{
+	margin-top: 60px;
 	margin-bottom: 40px;
 }
 
-.btn-theme a{
+#hardscapeR1, #hardscapeR2{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#buttonBar .btn-theme a{
 	color: white;
 }
 
-#btnCommercial{
+#hardscapeBtnCommercial{
 	color: white;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	text-align: center;
-	background-image: url(../img/button_hardscape_commercial.jpg);
+	background-image: url(../css/img/button_hardscape_commercial.jpg);
 	font-weight: bold;
 }
 
-#btnResidential{
+#hardscapeBtnResidential{
 	color: white;
-	background-image: url(../img/button_hardscape_residential.jpg);
+	background-image: url(../css/img/button_hardscape_residential.jpg);
 	text-align: center;
 	font-weight: bold;
 }
 
-#btnCommercial:hover, #btnResidential:hover{
+#hardscapeBtnCommercial:hover, #hardscapeBtnResidential:hover{
 	color: #547e3d;
 	opacity: 0.90;
 }
 
 p{
-	text-align: justify;
+	text-align: left;
 }
 
 #demo1 li img{
@@ -40,9 +51,27 @@ p{
 	max-height: 800px;
 }
 
+.hardscapeSubtitle{
+	margin-bottom: 20px;
+	font-size: x-large;
+}
+
+.hardscapeParagraph{
+	margin-bottom: 30px;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 480px){
-  	#btnCommercial{
+  	#hardscapeBtnCommercial{
+  		width: 100%;
+  		height: 180px;
+  		padding: 80px;
+  		margin-bottom: 60px;
+  		text-align: center;
+  		color: black;
+  	}
+
+  	#hardscapeBtnResidential{
   		width: 100%;
   		height: 180px;
   		padding: 80px;
@@ -50,15 +79,7 @@ p{
   		color: black;
   	}
 
-  	#btnResidential{
-  		width: 100%;
-  		height: 180px;
-  		padding: 80px;
-  		text-align: center;
-  		color: black;
-  	}
-
-  	#sideBar{
+  	#buttonBar{
   		padding:0;
   	}
 }
@@ -66,21 +87,21 @@ p{
 /* INTERMEDIATE */
 @media (min-width: 480px) {
 
-	#r1{
+	#hardscapeR1{
 		text-align: center; 
 	}
 
-	#sideBar li{
+	#buttonBar li{
 		display: inline;
 	}
 	
-	.btn-theme {
+	#buttonBar .btn-theme {
 		color: black;
 		background-color: transparent;
 		border-color: transparent;
 	}
 
-	#btnCommercial{
+	#hardscapeBtnCommercial{
 		background-repeat: no-repeat;
 		width: 45%;
 		height: 180px;
@@ -89,7 +110,7 @@ p{
 		padding: 0px;
 	}
 
-	#btnResidential{
+	#hardscapeBtnResidential{
 		background-repeat: no-repeat;
 		width: 45%;
 		line-height: 180px;
@@ -100,15 +121,15 @@ p{
  
 /* WIDE */
 @media (min-width: 992px){
-	#btnCommercial{
+	#hardscapeBtnCommercial{
 		background-repeat: no-repeat;
 		width: 100%;
 		height: 180px;
 		line-height: 180px;
-		margin: 10px 0 0 0;
+		margin: 10px 0 60px 0;
 	}
 
-	#btnResidential{
+	#hardscapeBtnResidential{
 		background-repeat: no-repeat;
 		width: 100%;
 		line-height: 180px;

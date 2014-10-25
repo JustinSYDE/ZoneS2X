@@ -1,0 +1,58 @@
+ <!--Row 0-->
+    <div id="r0" class="row">
+        <div class="navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="glyphicon glyphicon-align-justify" style="background-color:white; color: #acb7c0"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#/">ZONE SIX <span>DESIGN BUILD</span></a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav nav-pills navbar-right green">
+
+                    <li class="dropdown" ng-class="{active: tabService.isSet(2)}">
+                        <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/softscape" ng-click="tabService.setTab(2)">
+                          SOFTSCAPE
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#/softscape-residential" ng-click="tabService.setTab(2)">RESIDENTIAL</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="#/softscape-commercial" ng-click="tabService.setTab(2)">COMMERCIAL</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown" ng-class="{active: tabService.isSet(3)}">
+                        <a class="dropdown-toggle disabled" data-toggle="dropdown" href="#/hardscape" ng-click="tabService.setTab(3)">
+                          HARDSCAPE
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#/hardscape-residential" ng-click="tabService.setTab(3)">RESIDENTIAL</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="#/hardscape-commercial" ng-click="tabService.setTab(3)">COMMERCIAL</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown" ng-class="{active: tabService.isSet(4)}">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          SPECIALITIES
+                          <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#/specialties-woodwork" ng-click="tabService.setTab(4)">WOODWORK</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="#/specialties-stonework" ng-click="tabService.setTab(4)">STONEWORK</a></li>
+                            <li role="presentation" class="divider"></li>
+                            <li><a href="#/specialties-other" ng-click="tabService.setTab(4)">OTHER</a></li>
+                        </ul>
+                      </li>
+
+                    <li ng-class="{active: tabService.isSet(1)}"><a href="#/about" ng-click="tabService.setTab(1)">ABOUT</a></li>
+                  </ul>
+            </div><!--/.navbar-collapse -->
+        </div>
+    </div>

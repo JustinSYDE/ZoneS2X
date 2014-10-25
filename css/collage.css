@@ -1,21 +1,16 @@
 /* ======================= GLOBAL ===================================== */
 
-img{
-  width: 40%;
+#collage img{
   height: auto;
   float: left;
   padding: 0;
-  margin: 2px ;
-}
-
-#collage{
-  padding-left: auto;
-  padding-right: auto;
+  margin: 2px;
 }
 
 h2{
-  text-align: center;
-  padding-bottom: 40px;
+  text-align: justify;
+  font-size: x-large;
+  padding-bottom: 20px;
 }
 
 p{
@@ -24,37 +19,76 @@ p{
 
 #wrapper{
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 #sideBar{
   padding: 150px 30px 80px 30px;
   background-color: #f6f9fb;
+  -webkit-box-shadow: 10px 0 10px -10px black;
+  -moz-box-shadow: 10px 0 10px -10px black;
+  box-shadow: 10px 0 10px -10px black;
 }
 
 #collage{
   height: auto;
+  margin-bottom: 40px;
 }
 
-/* ======================= MOBILE ONLY ===================================== */
+* {
+  margin: 0;
+}
 
-@media (max-width: 768px){
-	
+.footer, .push {
+  height: 4em;
+}
+
+/* --------------------------------------------- MEDIA QUERIES --------------------------------------------- */
+
+@media (max-width: 770px){
     #sideBar{
       height: auto;
     }
 
-}
+    #collage img{
+      width: 99%;
+    }
 
-/* ======================= TABLET+ ===================================== */
-
-@media (min-width: 480px) {
+    #sideBar{
+      margin-bottom: 5px;
+      -webkit-box-shadow: 0px 10px 10px -10px black;
+      -moz-box-shadow: 0px 10px 10px -10px black;
+      box-shadow: 0px 10px 10px -10px black;
+    }
 }
- 
-/* ======================= WIDESCREEN+ ===================================== */
 
 @media (min-width: 770px){
   #sideBar{
     position: fixed;
     height: 100%;
+    width: 30%;
   }
+
+  #collage{
+    margin-left: 30.5%;
+  }
+
+  #collage img{
+      width: 49%; 
+    }
+}
+
+@media (min-width: 1000px) {
+  #sideBar{
+    width: 20%;
+  }
+
+  #collage{
+  margin-left: 20.5%;
+  }
+
+  #collage img{
+      width: 49.5%;
+    }
 }

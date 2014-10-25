@@ -1,10 +1,10 @@
-/* ======================= GLOBAL ===================================== */
+/* ----------------------------------------- GLOBAL ----------------------------------------- */
 
 h1, h3{
   text-align: center;
 }
 
-p{
+#aboutR5 p{
   text-align: justify;
 }
 
@@ -12,68 +12,66 @@ p{
   padding: 0 10% 0 10%;
 }
 
-#r1{
-  width: 100%;
-  background-image: url(../img/frontBackground2.png);
-  background-repeat: no-repeat;
-  color: white;
-  padding: 0;
-}
-
-#r3{
+#aboutR2{
   background-color: #f6f9fb;
 }
 
-#r4{
-  text-align: center;
+#aboutR3{
+  
 }
 
-#r5{
+#aboutR4{
   text-align: center;
+  background-color: #f6f9fb;
 }
 
-#r6{
+#aboutR5{
+  text-align: center;
+  background-color: #f6f9fb;
+}
+
+#aboutR6{
   margin: 0;
   padding-left:0;
   padding-right:0;
-  background-color: #f6f9fb;
+  
 }
 
-#r2, #r3, #r4, #r5, #r6{
+#aboutR2, #aboutR3, #aboutR4, #aboutR5, #aboutR6{
   padding-top: 80px;
   padding-bottom:80px;
 }
 
-#r3c p{
+#aboutR3c p{
   margin-top: 10px;
   margin-bottom: 60px;
 }
 
-#r3c h3{
+#aboutR3c h3{
   margin-top: 20px;
 }
 
-#r1 h1, #r2 h1, #r3 h1, #r4 h1, #r5 h1, #r6 h1{
+#aboutR2 h1, #aboutR3 h1, #aboutR4 h1, #aboutR5 h1, #aboutR6 h1{
   font-size: 350%;
 }
 
-#r1 h3, #r2 h3, #r3 h3, #r4 h3, #r5 h3, #r6 h3{
+#aboutR2 h3, #aboutR3 h3, #aboutR4 h3, #aboutR5 h3, #aboutR6 h3{
   margin-top: 30px;
 }
 
-#r3 h3{
+#aboutR3 h3{
   font-size: x-large;
 }
  
-#r6{
+#aboutR6{
   padding-bottom: 0px;
 }
 
-#r6 p{
+#aboutR6 p{
   text-align: center;
 }
 
-#r6 span{
+#aboutR6 span{
   padding-right: 10px;
   padding-top: 10px;
 }
@@ -82,11 +80,11 @@ p{
   width: 100%;
 }
 
-#r5 .row .row{
+#aboutR5 .row .row{
   padding-top: 30px;
 }
 
-#r2b img{
+#aboutR2b img{
   margin-bottom: 30px;
   border: 5px solid white;
 }
@@ -96,14 +94,16 @@ p{
   text-align: center;
   text-transform: uppercase;
 }
-/* ======================= MOBILE ONLY ===================================== */
+
+#gmap_canvas img{
+  max-width:100%;
+  background:none!important
+}
+
+/* ----------------------------------------- MEDIA QUERIES ----------------------------------------- */
 
 @media (max-width: 480px){
-    #r1{
-      height: auto;
-    }
-
-    #r3b .col-md-4{
+    #aboutR3b .col-md-4{
       padding-top: 40px;
     }
 
@@ -113,9 +113,6 @@ p{
     }
 }
 
-
-/* ======================= TABLET+ ===================================== */
-
 @media (min-width: 480px) {
 	.btn-theme {
 		color: black;
@@ -123,9 +120,3 @@ p{
 		border-color: transparent;
 	}
 }
- 
- @media (min-width: 768px){
-  #r1{
-    height: 100%;
-  }
- }    

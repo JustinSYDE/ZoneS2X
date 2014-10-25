@@ -1,38 +1,61 @@
-/* ======================= MOBILE & TABLET ===================================== */
+/* ----------------------------------------- MOBILE & TABLET ------------------------------------------- */
 	
-	.row{
+	.textSlide{
+		width: 300px;
+		margin-right: 0;
+	}
+
+	.frontRow{
 		padding: 0 10% 0 10%;
 	}
 
-	#r0a{
+	#frontR1{
+	  width: 100%;
+	  background-image: url(img/frontBackground2.png);
+	  background-repeat: no-repeat;
+	  color: white;
+	  padding: 0;
+	}
+
+	#frontR1 h1{
+		font-size: 350%;
+	}
+
+	#frontR1 h3{
+		margin-top: 30px;
+	}
+
+	#frontR0a{
 		height: 120px;
 	}
 
-	#r1a{
+	#frontR1a{
 		height: auto;
+		text-align: left;
 	}
 
-	#r2a{
-		padding-top: 40px;
+	#frontR2a{
+		padding-top: 20px;
 		height: auto;
+		padding-bottom: 20px;
 	}
 
-	#r3a{
+	#frontR3a{
 		padding-top: 40px;
 		height: auto;
 	}	
 
-	#r4a{
+	#frontR4a{
 		height: auto;
-    	padding: 40px 10% 80px 10%;
+    	padding: 40px 10% 40px 10%;
 	}
 
-	#r4a p{
+	#frontR4a p{
 		text-align: center;
 		padding-top: 8px;
 	}
 
-	.btn-theme{
+	#frontR3a .btn-theme{
 		background-color: transparent;
 		color: white;
 		width: 100%;
@@ -45,7 +68,7 @@
 		margin-bottom: 5px;
 	}
 
-	.btn-theme:hover, .btn-theme:focus{
+	#frontR3a .btn-theme:hover, #frontR3a .btn-theme:focus{
 		color: #e9e0b7;
 		border-color: #e9e0b7;
 	}
@@ -67,18 +90,19 @@
 
 	#lightSlider{
 		padding-top: 20px;
+		width: 60%;
 	}
 
 	.quote{
-		text-align: center;
+		text-align: left;
 	}
 
 	.reference{
 		margin-top: 20px;
-		text-align: center;
+		text-align: left;
 	}
 
-	#r1a span, #lightSlider li p span, #r4a em{
+	#frontR1a span, #lightSlider li p span, #frontR4a em{
 		color: #e9e0b7;
 	}
 
@@ -86,55 +110,83 @@
 		background-color: #547e3d;
 	}
 
-/* ======================= WIDESCREEN+ ===================================== */
+	#frontR1a h1, #frontR1a h3{
+		text-align: left;
+	}
+
+	
+/* ------------------------------------------------ MEDIA QUERIES ------------------------------------------------*/
+
+@media (max-width: 480px){
+    #frontR1{
+      height: auto;
+    }
+}
 
 @media (min-width: 768px) {
 
-  /*.dropdown:hover .dropdown-menu {
-    display: block;
- }*/
-    .row{
-		padding: 0 10% 0 10%;
+	#frontR1{
+	    height: 93.3%;
+	  }
+  
+ 	#frontR1a h1, #frontR1a h3{
+		text-align: center;
 	}
 
-	#r0a{
-		height: 30%;
+ 	.quote{
+ 		text-align: center;
+ 	}
+
+ 	.reference{
+ 		text-align: center;
+ 	}
+
+ 	.textSlide{
+		width: 400px;
+		padding-left: 0%;
+		margin-right: 0;
 	}
 
-	#r1a{
+	#frontR0a{
+		height: 25%;
+		margin-top: 3.6%;
+	}
+
+	#frontR1a{
 		height: 15%;
 		padding: 0;
+		text-align: center;
 	}
 
-	#r2a{
+	#frontR2a{
 		height: 15%;
-	    padding-left: 20%;
-	    padding-right: 22%;
+	    padding-left: 25%;
+	    padding-right: 20%;
 	    width: 100%;
 	}
 
-	#r3a{
+	#frontR3a{
 		height: 15%;
 	}	
 
-	#r3a ul{
+	#frontR3a ul{
  		list-style-type: none;
  		text-align: center;
  	}
 
- 	#r3a ul li{
+ 	#frontR3a ul li{
  		display: inline;
  		padding-left: 5%;
  		padding-right: 5%;
  	}
 
-	#r4a{
-		height: 25%;
+	#frontR4a{
+		height: 30%;
 	    padding-left: 20%;
 	    padding-right: 20%;
 	}
 
-	.btn-theme{
+	#frontR3a .btn-theme{
 		background-color: transparent;
 		color: white;
 		width: auto;
@@ -156,6 +208,55 @@
 	
 	#lightSlider .active{
 		max-width: 1100px;
+	}
+}
+
+/* Hack to work around initial width set of lightSlider.js */
+@media (min-width: 900px){
+	.textSlide{
+		width: 500px;
+	}
+}
+
+
+@media (min-width: 1000px){
+	.textSlide{
+		width: 550px;
+	}
+}
+
+@media (min-width: 1200px){
+	.textSlide{
+		width: 600px;
+	}
+}
+
+@media (min-width: 1300px){
+	.textSlide{
+		width: 650px;
+	}
+}
+
+@media (min-width: 1400px){
+	.textSlide{
+		width: 700px;
+	}
+}
+
+@media (min-width: 1500px) {
+	.textSlide{
+		width: 770px;
+		padding-left: 20%;
+		margin-right: 0;
+	}
+
+	#frontR2a{
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+
+	.quote, .reference{
+		text-align: center;
 	}
 }
 
