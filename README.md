@@ -1,4 +1,6 @@
-BAR-Boilerplate
-===============
+Website for Zone Six Design Build Ltd
+======================================
 
-Custom Bootstrap + AngularJS + RequireJS  Boilerplate
+Using custom Bootstrap + AngularJS + RequireJS  Boilerplate
+
+Coming soon.

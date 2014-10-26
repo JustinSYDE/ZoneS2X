@@ -28,7 +28,7 @@ define(["servicesFactory"], function(servicesFactory) {
 		tabService.init = function(scope){
 			_scope = scope;
 			return tabService;
-		}
+		};
 
 		return tabService;
 	});
