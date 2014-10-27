@@ -1,17 +1,11 @@
 NOTES :
 ========
 
-NAVBAR:
+To Fix:
 --------
 
-1. Full rectangle on hover and active
-2. Darker color on mousedown
-
-FRONT:
--------
-
-1. Button shrink size and border on hover
-2. Fix tabService zoneSix title
+1. Image not loading in stonework 
+2. iPhone slider text needs to be responsive
 
 
 
