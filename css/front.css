@@ -26,6 +26,7 @@
 	  width: 100%;
 	  background-image: url(img/frontBackground.png);
 	  background-repeat: repeat-y;
+	  background-repeat: repeat-x;
 	  color: white;
 	  padding: 0;
 	}
