@@ -232,6 +232,25 @@
 }
 
 /* Hack to work around initial width set of lightSlider.js */
+@media (min-width: 300px){
+	.textSlide{
+		width: 200px;
+	}
+}
+
+@media (min-width: 500px){
+	.textSlide{
+		width: 300px;
+	}
+}
+
+
+@media (min-width: 700px){
+	.textSlide{
+		width: 400px;
+	}
+}
+
 @media (min-width: 900px){
 	.textSlide{
 		width: 500px;
