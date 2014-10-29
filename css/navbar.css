@@ -45,6 +45,12 @@ li span{
     padding: auto;
 }
 
+.underConstruction{
+  opacity: 0.5;
+  width: 20%;
+  height: 20%;
+}
+
 .row{
   margin:0;
 }
