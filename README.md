@@ -1,6 +1,6 @@
 Website for Zone Six Design Build Ltd
 ======================================
 
-Using custom Bootstrap + AngularJS + RequireJS  Boilerplate
+Live site at http://zonesix.com
 
-Coming soon.
+
