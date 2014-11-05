@@ -1,5 +1,9 @@
 /* ======================= GLOBAL ===================================== */
 
+body{
+    background: url(img/backgrounds/ricepaper.png);
+}
+
 #collage img{
   height: auto;
   float: left;
@@ -11,7 +15,7 @@
 }
 
 h2{
-  text-align: justify;
+  text-align: center;
   font-size: x-large;
   padding-bottom: 20px;
 }
@@ -21,10 +25,10 @@ p{
 }
 
 #wrapper{
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
-  background: url(img/backgrounds/ricepaper.png);
+  
 }
 
 #sideBar{
