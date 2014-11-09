@@ -1,140 +1,139 @@
-/* ----------------------------------------- MOBILE & TABLET ------------------------------------------- */
-	
-	.textSlide{
-		width: 300px;
-		margin-right: 0;
-	}
+.textSlide{
+	width: 300px;
+	margin-right: 0;
+}
 
-	.clicked{
-		border: 1px solid #e9e0b7;
-		border-radius: 0;
-		padding: 1em 1.5em 1em 1.5em;
-		color: #e9e0b7;
-		font-size: 15px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-		webkit-box-shadow: inset 10px 10px 70px 0px black;
-		-moz-box-shadow: inset 10px 10px 70px 0px black;
-		box-shadow: inset 10px 10px 70px 0px black;
-	}
+.clicked{
+	border: 1px solid #e9e0b7;
+	border-radius: 0;
+	padding: 1em 1.5em 1em 1.5em;
+	color: #e9e0b7;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	webkit-box-shadow: inset 10px 10px 70px 0px black;
+	-moz-box-shadow: inset 10px 10px 70px 0px black;
+	box-shadow: inset 10px 10px 70px 0px black;
+}
 
-	.frontRow{
-		padding: 0 10% 0 10%;
-	}
+.frontRow{
+	padding: 0 10% 0 10%;
+}
 
-	#frontR1{
-	  width: 100%;
-	  background-image: url(img/frontBackground.png);
-	  background-repeat: repeat-y;
-	  background-repeat: repeat-x;
-	  color: white;
-	  padding: 0;
-	}
+#frontR1{
+  width: 100%;
+  background-image: url(img/frontBackground.png);
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  color: white;
+  padding: 0;
+}
 
-	#frontR1 h1{
-		font-size: 350%;
-	}
+#frontR1 h1{
+	font-size: 350%;
+}
 
-	#frontR1 h3{
-		margin-top: 30px;
-	}
+#frontR1 h3{
+	margin-top: 30px;
+}
 
-	#frontR0a{
-		height: 120px;
-	}
+#frontR0a{
+	height: 120px;
+}
 
-	#frontR1a{
-		height: auto;
-		text-align: left;
-	}
+#frontR1a{
+	height: auto;
+	text-align: left;
+}
 
-	#frontR2a{
-		padding-top: 20px;
-		height: auto;
-		padding-bottom: 20px;
-	}
+#frontR2a{
+	padding-top: 20px;
+	height: auto;
+	padding-bottom: 20px;
+}
 
-	#frontR3a{
-		padding-top: 40px;
-		height: auto;
-	}	
+#frontR3a{
+	padding-top: 40px;
+	height: auto;
+}	
 
-	#frontR4a{
-		height: auto;
-    	padding: 40px 10% 40px 10%;
-	}
+#frontR4a{
+	height: auto;
+	padding: 40px 10% 40px 10%;
+}
 
-	#frontR4a p{
-		text-align: center;
-		padding-top: 8px;
-	}
+#frontR4a p{
+	text-align: center;
+	padding-top: 8px;
+}
 
-	#frontR3a .btn-theme{
-		background-color: transparent;
-		color: white;
-		width: 100%;
-		height: auto;
-		border-radius: 0;
-		border-color: white;
-		border-style: dashed;
-		padding: 1em 0 1em 0px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
+#frontR3a .btn-theme{
+	background-color: transparent;
+	color: white;
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+	border-color: white;
+	border-style: dashed;
+	padding: 1em 0 1em 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
-	#frontR3a .btn-theme:hover, #frontR3a .btn-theme:focus{
-		color: #e9e0b7;
-		border-color: #e9e0b7;
-		border-style: solid;
-		webkit-box-shadow: inset 10px 10px 60px 0px black;
-		-moz-box-shadow: inset 10px 10px 60px 0px black;
-		box-shadow: inset 10px 10px 60px 0px black;
-	}
+#frontR3a .btn-theme:hover, #frontR3a .btn-theme:focus{
+	color: #e9e0b7;
+	border-color: #e9e0b7;
+	border-style: solid;
+	webkit-box-shadow: inset 10px 10px 60px 0px black;
+	-moz-box-shadow: inset 10px 10px 60px 0px black;
+	box-shadow: inset 10px 10px 60px 0px black;
+}
 
-	#ericDivider{
-		border-width: 0px;
-		border-right-style: none;
-	}
+#ericDivider{
+	border-width: 0px;
+	border-right-style: none;
+}
 
-	#ericDivider p{
-		text-align: center;
-		color: #a5aeb6;
-	}
+#ericDivider p{
+	text-align: center;
+	color: #a5aeb6;
+}
 
-	em{
-		font-style: italic; 
-		color: #a5aeb6;
-	}
+em{
+	font-style: italic; 
+	color: #a5aeb6;
+}
 
-	#lightSlider{
-		padding-top: 20px;
-		width: 60%;
-	}
+#lightSlider{
+	padding-top: 20px;
+	width: 60%;
+}
 
-	.quote{
-		text-align: left;
-	}
+.quote{
+	text-align: left;
+}
 
-	.reference{
-		margin-top: 20px;
-		text-align: left;
-	}
+.reference{
+	margin-top: 20px;
+	text-align: left;
+}
 
-	#frontR1a span, #lightSlider li p span, #frontR4a em{
-		color: #e9e0b7;
-	}
+#frontR1a span, #lightSlider li p span, #frontR4a em{
+	color: #e9e0b7;
+}
 
-	.cd-timeline-img{
-		background-color: #547e3d;
-	}
+.cd-timeline-img{
+	background-color: #547e3d;
+}
 
-	#frontR1a h1, #frontR1a h3{
-		text-align: left;
-	}
+#frontR1a h1, #frontR1a h3{
+	text-align: left;
+}
 
-	#frontR4a em:hover{
-		color: #bab392;
-	}
+#frontR4a em:hover{
+	color: #bab392;
+}
+
 
 /* ------------------------------------------------ MEDIA QUERIES ------------------------------------------------*/
 
