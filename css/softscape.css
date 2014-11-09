@@ -120,11 +120,6 @@
 		margin: 0;
 		padding: auto;
 	}
-
-	#softscapeR1, #softscapeR2{
-		padding-left: 15%;
-		padding-right: 15%;
-	}
 }
 
 @media (min-width: 1200px){
